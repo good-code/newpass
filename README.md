@@ -19,8 +19,13 @@ do not use only capped or only small letter subset.  it is first tried to
 use only small letters and breaking passwords like this takes much less 
 time then these constracted from larger set of chars.
 
+add some extra characters ie space dollar percent +- etc to make pull of 
+available chars longer.  frequently attacks are only successful on 
+alphanumeric passwords without special chars.
+
 do not use the same password in more then one service.  if one gets 
 compromised all other services will get rabbed as well.
 
 never copy it from online services or allow someone else to do your password.
+
 
