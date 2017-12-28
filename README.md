@@ -28,4 +28,12 @@ compromised all other services will get robbed as well.
 
 never copy it from online services or allow someone else to do your password.
 
+===  HOW TO USE ===
+
+you need shell ie bash https://www.gnu.org/software/bash/
+
+type:
+
+$sh ./newpass
+I^{tXG=UPLyCrope2^C@. y}<?@`jTyF kg_M+(6Xi9^u>~/wO{1IvrYRqZ
 
