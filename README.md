@@ -35,5 +35,6 @@ you need shell ie bash https://www.gnu.org/software/bash/
 type:
 
 $sh ./newpass
+
 I^{tXG=UPLyCrope2^C@. y}<?@`jTyF kg_M+(6Xi9^u>~/wO{1IvrYRqZ
 
