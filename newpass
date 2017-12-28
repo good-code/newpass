@@ -1,0 +1,14 @@
+#set -xe
+extra=" !\"#$%&\'()*+,-./:;<=>?@[\]^_\`{|}~"
+rand_length=$(( 10 + RANDOM % 16 ))
+
+if [ -z "$1"  ]; then 
+	pass_length=$1
+else
+
+	pass_length=$rand_length
+fi
+pass_length=$(( 34 + rand_length ))
+pass=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9 !\"#$%&\()*+,-./:;<=>?@[\]^_\`{|}~"'| fold -w $pass_length |head -n1)
+echo $pass
+
